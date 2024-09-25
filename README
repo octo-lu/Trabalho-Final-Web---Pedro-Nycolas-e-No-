@@ -1,0 +1,9 @@
+-- SITE BEM VIVER -- BACKEND
+
+Para instalar as dependências necessárias para o backend funcionar abra o terminal em /trabalho de web/backend >
+  
+    - Execute o comando 'npm install'
+
+-- SITE BEM VIVER -- FRONTEND
+
+O frontend pode ser executado utilizando a extensão live server do vscode

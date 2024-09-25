@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en"> 
+  <head>
+    <title>Home</title>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/trevo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel"> 
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light" src="images/BemViver.png" alt="" width="140" height="57" srcset="images/BemViver.png"/></a></div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Sobre</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Comunidades</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Faça parte</a>
+                      </li>
+                   
+                  </div>
+               
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      
+      <!-- Deslizante -->
+      <section class="section section-lg section-main-bunner section-main-bunner-filter text-center">
+        <div class="main-bunner-img" style="background-image: url(https://lh3.googleusercontent.com/uw4aZou5dTqLkdI3VYGQT1YuPNygyTF0sybAUv4zJ2vZcCOxu-LjKCR1RPBqp3pYV3vJ6Hj4TyRS6InHL89O-cxXHWIHKZWEsGrLz1rBqNRI4j5hAI5Xxeww9UnKLJQ2UqeNlcyf); background-size: cover;"></div>
+        <div class="main-bunner-inner">
+          <div class="container">
+            <div class="box-default">
+              <h1 class="box-default-title">Bem vindo!</h1>
+              <div class="box-default-decor"></div>
+              <p class="big box-default-text">Bem-vindo ao BemViver — seu espaço diário para nutrir corpo, mente e espírito. Aqui, cada dia é uma nova oportunidade para viver melhor!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bg-gray-1">
+        <section class="section-transform-top">
+          <div class="container">
+            <div class="box-booking">
+              <div>
+                <h4 class="text-center">Agende uma visita</h4>
+              </div>
+              <form class="rd-form rd-mailform booking-form" id="schedule-form">
+                <div>
+                  <p class="booking-title">Nome</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-name" type="text" name="name" data-constraints="@Required">
+                    <label class="form-label" for="booking-name">Seu Nome</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Telefone</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-phone" type="text" name="phone" data-constraints="@Numeric">
+                    <label class="form-label" for="booking-phone">Seu Nº Telefone</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Data</p>
+                  <div class="form-wrap form-wrap-icon"><span class="icon mdi mdi-calendar-text"></span>
+                    <input class="form-input" id="booking-date" type="text" name="date" data-constraints="@Required" data-time-picker="date">
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">N° Pessoas</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-number" type="number" name="numPessoas" data-constraints="@Required">
+                    <label class="form-label" for="booking-number"></label>
+                    
+                  </div>
+                </div>
+                <div>
+                  <button class="button button-lg button-gray-600" type="submit">Agendar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section section-lg section-inset-1 bg-gray-1 pt-lg-0">
+          <div class="container">
+            <div class="row row-50 justify-content-xl-between align-items-lg-center">
+              <div class="col-lg-6 wow fadeInLeft">
+                 <div class="box-image"><img class="box-image-static" src="images/341-391.png" alt="" width="483"/> <!-- height="327"/><img class="box-image-position" src="images/341-391.png" alt="" width="341" height="391" -->
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-5 wow fadeInRight">
+                <h2>Quem Somos?</h2>
+                <p>Bem-vindo ao BemViver, seu aliado na busca por uma vida mais plena e saudável. Nós oferecemos suporte abrangente em momentos difíceis, desde consultas médicas e apoio psicológico até dicas de nutrição, exercícios e receitas que promovem longevidade.</p>
+                <p> Além disso, trazemos notícias para alegrar seu dia e inspirar mudanças positivas. Conecte-se conosco e comece a transformar seu dia a dia!</p><img src="images/140 X 50.png" alt="" width="140" height="50"/>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Ofertas em destaque -->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 wow-outer">
+              <div class="wow slideInDown">
+                <h2>Ofertas em destaque</h2>
+                <p class="text-opacity-80">Oferecemos uma grande variedade dos melhores Livros de receitas e Metodos de fortalecimeto aos nossos visitantes e hóspedes. Abaixo estão alguns dos nosso principais Livros e formas de desenvolver sua criatividade mais populares.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-20 row-lg-30">
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/370-395-1.png" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Dieta da Longevidade</a></h4>
+                    <p class="big">$52.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/370-395-2.png" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Método Delavier de musculação</a></h4>
+                    <p class="big">$160.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/370-395-3.png" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Sucos Completos - Guia para Vitalidade e Juventude</a></h4>
+                    <p class="big">$79.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-gray-1">
+        <div class="container">
+          <h2 class="text-center">Cardápio de Conhecimento</h2>
+          <div class="row">
+            <div class="col-12">
+              <div class="tabs-custom tabs-horizontal tabs-classic" id="tabs-1">
+                <ul class="nav nav-tabs nav-tabs-classic">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">Alimentos</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Bebidas</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab">Exercícios</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-1-1">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">$25.89</p>
+                        <h4 class="event-item-modern-title"><a href="https://app.clevermeals.co/Recipes/Bowl-de-Pur%C3%A9-de-Batata-Doce-com-Sementes-de-Linha%C3%A7a">Bowl de Puré de Batata Doce com Sementes de Linhaça </a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Estas Bowl de Puré de Batata Doce com Sementes de Linhaça são perfeitas para o seu pequeno almoço paleo e vegan. Podem ser quentinhas ou mesmo frias, então é o ideal para estas manhãs frias de inverno e saudável para o verão.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$16.89</p>
+                        <h4 class="event-item-modern-title"><a href="https://app.clevermeals.co/Recipes/Caril-Vegetariano-com-Tofu">Caril Vegetariano com Tofu</a></h4> <!-- <a href="#"> -> Link -->
+                        <div class="event-item-modern-text">
+                          <p>Este rápido Caril Vegetariano com Tofu é uma ótima maneira de usar beringela e abóbora que possa ter a mais no seu frigorífico.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$17.89</p>
+                        <h4 class="event-item-modern-title"><a href="https://app.clevermeals.co/Recipes/Pudim-Keto-de-Chia-com-Abacate">Pudim Keto de Chia com Abacate </a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Este Pudim Keto de Chia com Abacate é feito com leite não lácteo, matcha, abacate e sementes de chia para o melhor pudim de sempre.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$18.89</p>
+                        <h4 class="event-item-modern-title"><a href="https://app.clevermeals.co/Recipes/Sopa-Gaspacho-Vegan-Sem-Gl%C3%BAten">Sopa Gaspacho Vegan sem Glúten</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Wonderful combination of prime tenderloin, winter greens, Jerusalem artichoke puree, and oxtail reduction sauce.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-2">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">$20.89</p>
+                        <h4 class="event-item-modern-title"><a href="https://www.minhavida.com.br/materias/materia-22216">Vitality Verdejante</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Uma explosão de vitalidade em cada gole! Este suco é uma fusão revigorante de maçã, couve e cenoura, embalada com betacaroteno e vitamina A para iluminar seus sentidos e energizar seu corpo. Com antioxidantes poderosos e propriedades desintoxicantes, é a escolha perfeita para renovar sua saúde e vitalidade.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$22.99</p>
+                        <h4 class="event-item-modern-title"><a href="#">Raízes Revigorantes</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Desperte seus sentidos com este suco vibrante de beterraba, maçã e gengibre. Embalado com vitaminas essenciais e antioxidantes, esta mistura potente fortalece a imunidade, acalma a inflamação e promove uma digestão saudável. Um elixir de rejuvenescimento que protege contra o envelhecimento precoce e eleva sua saúde a novas alturas!</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$18.79</p>
+                        <h4 class="event-item-modern-title"><a href="#">Pureza Tropical</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Refresque-se com a Pureza Tropical, uma combinação simples, mas irresistível de água de coco e pepino. Combinando a hidratação natural da água de coco com as propriedades refrescantes e ricas em fibras do pepino, este suco é uma escolha leve e nutritiva, perfeita para revitalizar seu corpo e mente.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$26.90</p>
+                        <h4 class="event-item-modern-title"><a href="#">Verdejante Refrescante</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Entre no reino da vitalidade com o Verdejante Refrescante, um suco revitalizante de couve manteiga, abacaxi, laranja e maçã. Embalado com nutrientes essenciais e antioxidantes, este elixir rejuvenescedor é uma explosão de frescor e vitalidade. Proteja sua saúde cardiovascular, fortaleça seus ossos e desfrute de uma pele radiante com cada gole!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-3">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">$60.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Natação</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Quando você nada, sua mente fica ocupada com aspectos como respiração, quantas voltas já deu e evitar colisões com outros nadadores. Se você compete, também precisa se concentrar na forma de nadar e na velocidade. Isso significa que não há muito espaço na cabeça para pensar em outras preocupações na piscina, no rio, lago ou mar. Por um tempo, você consegue relaxar dos incômodos cotidianos e se concentrar.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$45.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Dança</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>A dança oferece diversos benefícios para a saúde mental. Entre eles, há a liberação de endorfinas (que melhoram o humor) e a construção de autoestima por meio do aprimoramento das habilidades que envolvem o exercício. Por isso, dançar é uma forma divertida e eficaz de cuidar.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$80.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Yoga</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Para o instrutor de yoga Romulo Carrer, o yoga oferece benefícios para a saúde física e mental. Buscar yoga apenas pelos benefícios físicos,  é como comer a casca da banana e deixar a parte mais gostosa"...</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$49.99</p>
+                        <h4 class="event-item-modern-title"><a href="#">Artes marciais</a></h4>
+                        <div class="event-item-modern-text">
+                          <p> podem ajudar a reduzir o estresse e a ansiedade, incentivando você a praticar respiração profunda, meditação e atenção plena. Elas auxiliam no treinamento da mente para manter a atenção concentrada enquanto permanece tranquilo e alerta. Isso pode ser especialmente benéfico quando você está tentando realizar múltiplas tarefas que exigem atenção dividida.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="row isotope-wrap">
+          
+          <!-- Imagens demostrativas do Menu de conhecimento -->
+          <div class="col-lg-12">
+            <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group" data-lg-thumbnail="false">
+              <div class="row no-gutters row-condensed">
+                <div class="col-12 col-sm-6 col-md-4 isotope-item wow-outer" data-filter="*">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/640X429-2.png" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/1200X800-2.png" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/640X429-3.png" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/1200X800-3.png" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/640X429-1.png" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/1200X800-1.png" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow fadeInUp">
+                    <div class="gallery-item-classic"><img src="images/962X429-1.png" alt="" width="960" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/1200X800-4.png" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 isotope-item wow-outer" data-filter="Category 2">
+                  <div class="wow fadeInUp">
+                    <div class="gallery-item-classic"><img src="images/962X429-2.png" alt="" width="960" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/1200X800-5.png" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-lg bg-default">
+        <div class="container wow-outer">
+          <h2 class="text-center wow slideInDown">Recent News</h2>
+
+          <!-- Parte das Noticias -->
+          <div class="owl-carousel wow fadeInUp" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+            <div class="post-corporate"><a class="badge" href="#">Jul 12, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Cura para depressão encontrada após anos de pesquisa</a></h4>
+              <div class="post-corporate-text">
+                <p>Após décadas de intensas pesquisas, uma equipe de cientistas finalmente descobriu uma cura revolucionária para a depressão, trazendo esperança e alegria para milhões de pessoas em todo o mundo...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Março 22, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Voluntários criam rede de apoio emocional que transforma vidas</a></h4>
+              <div class="post-corporate-text">
+                <p> Um grupo de pessoas incríveis lançou uma iniciativa que conecta voluntários dispostos a ouvir e apoiar aqueles que enfrentam dificuldades emocionais, fazendo uma diferença profunda nas comunidades...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Maio 10, 2024</a>
+              <h4 class="post-corporate-title"><a href="#"> Criança de 8 anos inventa dispositivo que ajuda pessoas cegas</a></h4>
+              <div class="post-corporate-text">
+                <p>Uma menina prodigiosa desenvolveu um dispositivo revolucionário que permite que pessoas cegas ou com visão reduzida experimentem o mundo de uma forma totalmente nova, trazendo alegria e independência para suas vidas...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Jul 28, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Comunidade se une para construir casas gratuitas para pessoas desabrigadas</a></h4>
+              <div class="post-corporate-text">
+                <p>Em um ato de compaixão e solidariedade, moradores de uma cidade se juntaram para construir moradias dignas e gratuitas para aqueles que não tinham um lar, transformando vidas e trazendo uma onda de esperança para a região...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Ago 05, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Idoso de 90 anos conquista medalha de ouro nos jogos olímpicos</a></h4>
+              <div class="post-corporate-text">
+                <p>Provando que a idade é apenas um número, um incrível atleta idoso surpreendeu o mundo ao conquistar a medalha de ouro em uma competição olímpica, inspirando pessoas de todas as idades a perseguirem seus sonhos...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Set 12, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Cientistas descobrem forma de reverter os efeitos do envelhecimento</a></h4>
+              <div class="post-corporate-text">
+                <p>Em um avanço médico sem precedentes, pesquisadores anunciaram a descoberta de um tratamento capaz de reverter os efeitos do envelhecimento, trazendo esperança e uma nova perspectiva sobre o envelhecer saudável...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">out 05, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Projeto social transforma vidas de crianças carentes com aulas de música</a></h4>
+              <div class="post-corporate-text">
+                <p> Uma organização sem fins lucrativos está oferecendo aulas de música gratuitas para crianças de famílias de baixa renda, transformando suas vidas e lhes dando uma nova direção, cheias de alegria e esperança...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Dez 02, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Cachorro abandonado encontra lar amoroso e vira assistente terapêutico</a></h4>
+              <div class="post-corporate-text">
+                <p>Um cão resgatado de uma situação difícil encontrou um lar amoroso e se transformou em um assistente terapêutico, trazendo alegria e conforto para pessoas que precisam de apoio emocional, provando que todos merecem uma segunda chance...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Dez 30, 2024</a>
+              <h4 class="post-corporate-title"><a href="#">Mega sena da viradas tem mais de 40 ganhadores</a></h4>
+              <div class="post-corporate-text">
+                <p>Neste anos na mega sena de virada, temos uma ótima surpresa, no total foi mais de 40 ganhadores que vão dividir o prémio acumulado no valor de 1B...</p>
+              </div><a class="post-corporate-link" href="#">Ler Mais<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rodapé da página -->
+      <footer class="section footer-minimal context-dark">
+        <div class="container wow-outer">
+          <div class="wow fadeIn">
+            <div class="row row-60">
+              <div class="col-12"><a href="index.html"><img src="images/BemViver.png" alt="" width="140" height="57" srcset="images/BemViver.png"/></a></div>
+              <div class="col-12">
+                <ul class="footer-minimal-nav">
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="about-us.html">About</a></li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <ul class="social-list">
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>NTS</span><span>.&nbsp;</span><span>All Rights Reserved.</span><span>&nbsp;</span><a href="#">Privacy Policy</a>. Design&nbsp;by&nbsp;<a href="#">Note</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

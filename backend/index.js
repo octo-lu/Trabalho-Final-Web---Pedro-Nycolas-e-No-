@@ -4,6 +4,7 @@ const cors = require('cors')
 const app = express()
 app.use(express.json())
 
+//Pedro:
 //middleware cors utilizado para permitir o uso de recursos em origens distintas
 app.use(cors())
 
